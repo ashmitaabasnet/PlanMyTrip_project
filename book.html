@@ -1,0 +1,138 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PlanMyTrip</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='style1.css'>
+    <script src='script.js'></script>
+ </head>
+ <body>
+   <header>
+      <!--Nav Bar-->
+      <nav class="navbar">
+          <div class="logo">PlanMyTrip</div>
+          <ul class="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#Book" class="active">Book</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
+      </header>
+    <section class="book" id="book">
+      <div class = "contain">
+         <div class="contain">
+            <form class="form-group">
+                <div id="form">
+                    <h1 class="text-white text-center">Book Now</h1>
+    
+                    <div id="first-group">
+    
+                        <div id="content">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <input type="text" id="input-group" placeholder="First name">
+                        </div>
+    
+                        <div id="content">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <input type="number" id="input-group" placeholder="Phone number">
+                        </div>
+                        <div id="content">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <select id="input-group" style="background-color: black;">
+                                <option value="">Destination</option>
+                                <option value="">Bali</option>
+                                <option value="">Tokyo</option>
+                                <option value="">Singapore</option>
+                                <option value="">Paris</option>
+                                <option value="">London</option>
+                            </select>
+                        </div>
+                        <div id="content">
+                           <i class="fa fa-calendar" aria-hidden="true"></i>
+                           <input type="text" id="input-group" placeholder="Arrival Date">
+                       </div>
+    
+                    </div>
+    
+                    <div id="second-group">
+    
+                        <div id="content">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <input type="text" id="input-group" placeholder="Last name">
+                        </div>
+    
+                        <div id="content">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            <input type="email" id="input-group" placeholder="Email">
+                        </div>
+    
+                        <div id="content">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <select id="input-group" style="background-color: black;">
+                                <option value="">Type of Package</option>
+                                <option value="">AC</option>
+                                <option value="">Non-AC</option>
+                                <option value="">Single Bed</option>
+                                <option value="">Double Bed</option>
+                            </select>
+                        </div>
+                      
+                    </div>
+    
+                    <button type="submit" value="Submit" id="submit-btn">Book Now</button>
+    
+                </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="footer-col">
+                  <h4>PlanMyTrip</h4>
+                  <ul>
+                      <li><a href="#">about us</a></li>
+                      <li><a href="#">our services</a></li>
+                      <li><a href="#">privacy policy</a></li>
+                      <li><a href="#">affiliate program</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>get help</h4>
+                  <ul>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Bookings</a></li>
+                      <li><a href="#">returns</a></li>
+                      <li><a href="#">Packages</a></li>
+                      <li><a href="#">Payment options</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>online booking</h4>
+                  <ul>
+                      <li><a href="#">watch</a></li>
+                      <li><a href="#">pack</a></li>
+                      <li><a href="#">explore</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>follow us</h4>
+                  <div class="social-links">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+ </footer>
+    
+ </body>
+ </html>
